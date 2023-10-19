@@ -1,0 +1,9 @@
+14. Jelaskan mengapa pesan kesalahan tersebut muncul! (Jangan lanjut ke tahap selanjutnya
+jika tahap ke-14 ini masih error).
+Jawab: karena di class Product tingkat aksesnya itu 'protected' jadi gabisa memanggil di kelas yang berbeda 
+
+19. Perhatikan hasil yang muncul dilayar, kenapa bisa seperti itu?
+Jawab: karena dalam method MyType tidak ada isinya dan tipe datanya string maka munculnya null
+
+24. Jelaskan mengapa yang muncul dilayar adalah kata tersebut!
+Jawab: karena di method MyType ada isinya yaitu "DVD" maka muncul kata "DVD"
