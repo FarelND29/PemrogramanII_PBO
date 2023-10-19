@@ -7,3 +7,12 @@ Jawab: karena dalam method MyType tidak ada isinya dan tipe datanya string maka 
 
 24. Jelaskan mengapa yang muncul dilayar adalah kata tersebut!
 Jawab: karena di method MyType ada isinya yaitu "DVD" maka muncul kata "DVD"
+
+BAGIAN II
+8. Jelaskan mengapa title dari buku tersebut tidak muncul! Apakah istilah dalam konsep
+OOP yang mendefinisikan fenomena seperti ini?
+Jawaban: karena class Book_1214070 engga nge inisiasi properti MyType dan MyTitle yang ada di class Product_1214070, jadi nilainya null dan tidak tampil. Konsep OOP yang mendefinisikan fenomena ini disebut inheritance (pewarisan).
+
+12. Perhatikan hasil yang muncul dilayar, jelaskan mengapa saat ini judul buku tampil pada
+output!
+Jawab: karena type dan titlenya dipanggil dan di ProductTestnya menggunakan placeholder {0} dan {1} untuk menggantikan nilai judul dan halaman, juga ada myBook.MyTitle yang digunain untuk mengambil nilai judul buku dari instance myBook dan myBook.PageCount untuk ngambil nilai jumlah halaman buku dari instance yang sama. 
